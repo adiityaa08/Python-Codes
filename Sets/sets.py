@@ -21,3 +21,7 @@ print(type(null_set))
 
 null_set = set()
 print(type(null_set))
+
+setx={9}
+setx.add("9.0") # if u wanna save a number along with its same floating value consider any one value as a string
+print(setx)
